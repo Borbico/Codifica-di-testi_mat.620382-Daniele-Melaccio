@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xml:lang="it" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">
+                    Diari di Emanuele Artom: codifica elettronica.
+                </title>
+                <author ref="#EA">
+                    <persName>Emanuele Artom</persName>
+                </author>
+            </titleStmt>
+
+            <editionStmt>
+                <edition>
+                    Edizione digitale realizzata nel mese di <date when="2024-01">gennaio 2024</date>
+                </edition>
+                <respStmt xml:id="DM">
+                    <resp>Codifica in TEI P5 eseguita da</resp>
+                    <persName>
+                        <forename>Daniele</forename>
+                        <surname>Melaccio</surname>
+                    </persName>
+                </respStmt>
+                <respStmt xml:id="AMDG">
+                    <resp>Con la supervisione di</resp>
+                    <persName>
+                        <forename>Angelo Mario</forename>
+                        <surname>Del Grosso</surname>
+                    </persName>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher>
+                    <orgName>Università di Pisa</orgName>
+                </publisher>
+                <pubPlace><settlement type="city">Pisa</settlement></pubPlace>
+                <address>
+                    <country key="IT"/>
+                    <postCode>56127</postCode>
+                </address>
+                <availability>
+                    <p>Testo con libero accesso</p>
+                </availability>
+                <date when="2024">2024</date>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="IT">Italia</country>
+                        <settlement type="city">Milano</settlement>
+                        <institution xml:id="CDEC"><orgName>Fondazione Centro di Documentazione Ebraica Contemporanea CDEC Onlus</orgName></institution>
+                        <repository role="archive" ref="https://digital-library.cdec.it/cdec-web/" ><orgName ref="#CDEC">Centro di Documentazione Ebraica Contemporanea CDEC Onlus</orgName>Digital Library</repository>
+                        <collection>Fondo <persName ref="#EA">Emanuele Artom</persName></collection>
+                        <idno>b. 1 , fasc. 9</idno>
+                    </msIdentifier>
+
+                    <physDesc>
+                        <objectDesc form="manuscript">
+                            <supportDesc source="https://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html" material="paper">
+                                <support>
+                                    Il manoscritto è stato realizzato su fogli di <material>carta</material> bianca o a righe orizzontali e verticali<pc>,</pc> talvolta con bordatura laterale<pc>,</pc> con superficie talvolta liscia e talvolta ruvida e di diverso spessore<pc>,</pc> liberamente ordinati<pc>.</pc>
+                                </support>
+                                <extent>
+                                    <note>
+                                        Il testo è composto da <measure unit="pages" quantity="174">174 pagine</measure><pc>,</pc> che comprendono nel dettaglio <measure unit="pages" quantity="1">1 pagina</measure> introduttiva che descrive la pagina successiva<pc>,</pc> seguita da <measure unit="pages" quantity="1">1 pagina</measure> contenente una lettera della signora <persName ref="#ASA">Amalia Segre Artom</persName> <pc>(</pc>madre di <persName ref="#EA">Emanuele Artom</persName><pc>)</pc><pc>,</pc> e infine <measure unit="pages" quantity="172">172 pagine</measure> di diario scritte da <persName ref="#EA">Emanuele Artom</persName><pc>.</pc>
+                                    </note>
+                                </extent>
+                                <foliation>
+                                    Sulle pagine non è riportata nessuna numerazione<pc>.</pc>
+                                </foliation>
+                                <collation>
+                                    Le pagine del diario non sono rilegate tra loro<pc>,</pc> e i singoli fogli sembrano provenire da fonti diverse per qualità della carta<pc>,</pc> spessore e tipologia di superficie<pc>.</pc> L'autore ha utilizzato in maniera alternata una penna a inchiostro nero e una matita a grafite<pc>.</pc> Le pagine sono scritte da sinistra verso destra e dall'alto verso il basso<pc>.</pc>
+                                </collation>
+                                <condition>
+                                    Le pagine sono in buone condizioni di conservazione e sono facilmente leggibili<pc>;</pc> alcuni fogli presentano strappi e buchi lungo i bordi e alcune macchie di sporco <pc>.</pc>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="10 30">
+                                    Le pagine sono scritte in un'unica colonna di testo che tende a occupare tutto lo spazio a disposizione<pc>;</pc> le righe di testo scritte vanno all'incirca da un minimo di 10 a un massimo di 30 per pagina<pc>.</pc>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="2">
+                            <p>La seconda pagina della raccolta è stata scritta a mano in <term>corsivo</term> da <persName ref="#ASA">Amalia Segre Artom</persName><pc>,</pc> mentre tutte le pagine di diario sono state scritte a mano in <term>corsivo</term> da <persName ref="#EA">Emanuele Artom</persName><pc>.</pc></p>
+                        </handDesc>
+                        <accMat>
+                            La signora <persName ref="#ASA">Amalia</persName><pc>,</pc> madre di <persName ref="#EA">Emanuele</persName><pc>,</pc> nella sua lettera inclusa all'inizio del manoscritto dichiara la sua volontà che le pagine del diario<pc>,</pc> alla sua morte<pc>,</pc> siano consegnate al <orgName ref="#CDEC">Centro di Documentazione Ebraica</orgName><pc>;</pc> nella stessa lettera spiega il contenuto del plico in cui sono conservate le pagine di diario<pc>,</pc> a cui sono state aggiunte alcune scansioni e riproduzioni per garantire la sopravvivenza di alcune pagine che stavano riportando segni di sciupatura<pc>.</pc>
+                        </accMat>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            I diari sono stati scritti da <persName ref="#EA">Emanuele Artom</persName> tra il 1943 e il 1944<pc>:</pc> in queste pagine <persName ref="#EA">Artom</persName> racconta la sua esperienza partigiana dopo la firma dell'armistizio<pc>.</pc>
+                        </origin>
+                        <acquisition>
+                            La madre di <persName ref="#EA">Emanuele Artom</persName><pc>,</pc> ovvero la signora <persName ref="#ASA">Amalia Segre</persName><pc>,</pc> ha conservato i diari e ha chiesto che alla sua morte venissero consegnati al <orgName ref="#CDEC">Centro di Documentazione Ebraica</orgName><pc>.</pc>
+                        </acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Le correzioni agli errori grammaticali sono state eseguite secondo i principi e le regole della grammatica della lingua italiana<pc>.</pc></p>
+                </correction>
+                <normalization>
+                    <p>Non sono stati applicati accorgimenti di normalizzazione sul testo originale<pc>.</pc></p>
+                </normalization>
+                <punctuation>
+                    <p>I segni di punteggiatura sono stati mantenuti come nell'originale<pc>.</pc></p>
+                </punctuation>
+                <hyphenation>
+                    <p>La sillabazione delle parole per il ritorno a capo è stata mantenuta come presente nell'originale<pc>,</pc> come è stato mantenuto l'utilizzo di caratteri <gi>-</gi> e <gi>=</gi> per segnalare le parole spezzate<pc>;</pc> inoltre per ogni riga è indicato se inizia con una parola intera o con una parola spezzata dalla riga precedente<pc>.</pc></p>
+                </hyphenation>
+                <interpretation>
+                    <p>L'autore fa utilizzo di sigle e abbreviazioni che sono state sciolte e interpretate in fase di trascrizione<pc>,</pc> affiancando la versione originale alla versione estesa<pc>.</pc></p>
+                </interpretation>
+                <segmentation>
+                    <p>Le pagine codificate sono raccolte all'interno di un tag <gi>div</gi> e le singole pagine corrispondono a una <gi>milestone</gi> che contiene un tag <gi>ab</gi><pc>,</pc> all'interno del quale il testo è diviso per righe con il tag <gi>lb</gi> e per periodi con il tag <gi>s</gi><pc>.</pc></p>
+                </segmentation>
+            </editorialDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <creation>
+                <date from="1943" to="1944">I diari sono stati scritti dal 1943 al 1944</date>
+            </creation>
+
+            <langUsage>
+                <language ident="IT">Italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface xml:id="pagina14">
+            <graphic url='pag.14.jpeg' width='738.4px' height='1024.4px' />
+            <zone ulx="29" uly="25" lrx="690" lry="69" xml:id="p14r1"/>
+            <zone ulx="35" uly="66" lrx="696" lry="117" xml:id="p14r2"/>
+            <zone ulx="42" uly="110" lrx="696" lry="162" xml:id="p14r3"/>
+            <zone ulx="41" uly="150" lrx="682" lry="205" xml:id="p14r4"/>
+            <zone ulx="46" uly="186" lrx="679" lry="246" xml:id="p14r5"/>
+            <zone ulx="41" uly="226" lrx="694" lry="274" xml:id="p14r6"/>
+            <zone ulx="45" uly="265" lrx="691" lry="319" xml:id="p14r7"/>
+            <zone ulx="43" uly="304" lrx="664" lry="351" xml:id="p14r8"/>
+            <zone ulx="43" uly="342" lrx="660" lry="392" xml:id="p14r9"/>
+            <zone ulx="43" uly="381" lrx="672" lry="438" xml:id="p14r10"/>
+            <zone ulx="45" uly="427" lrx="667" lry="476" xml:id="p14r11"/>
+            <zone ulx="43" uly="472" lrx="659" lry="522" xml:id="p14r12"/>
+            <zone ulx="43" uly="507" lrx="639" lry="565" xml:id="p14r13"/>
+            <zone ulx="46" uly="555" lrx="695" lry="608" xml:id="p14r14"/>
+            <zone ulx="45" uly="592" lrx="690" lry="647" xml:id="p14r15"/>
+            <zone ulx="43" uly="639" lrx="692" lry="699" xml:id="p14r16"/>
+            <zone ulx="47" uly="682" lrx="672" lry="726" xml:id="p14r17"/>
+            <zone ulx="53" uly="727" lrx="671" lry="778" xml:id="p14r18"/>
+            <zone ulx="57" uly="762" lrx="664" lry="813" xml:id="p14r19"/>
+            <zone ulx="59" uly="802" lrx="652" lry="859" xml:id="p14r20"/>
+            <zone ulx="59" uly="844" lrx="618" lry="888" xml:id="p14r21"/>
+            <zone ulx="57" uly="886" lrx="654" lry="935" xml:id="p14r22"/>
+            <zone ulx="67" uly="927" lrx="487" lry="986" xml:id="p14r23"/>
+
+        </surface>
+
+        <surface xml:id="pagina15">
+            <graphic url='pag.15.jpeg' width='724.4px' height='1024.4px' />
+            <zone ulx="44" uly="35" lrx="638" lry="91" xml:id="p15r1"/>
+            <zone ulx="45" uly="82" lrx="653" lry="132" xml:id="p15r2"/>
+            <zone ulx="44" uly="121" lrx="620" lry="165" xml:id="p15r3"/>
+            <zone ulx="39" uly="159" lrx="630" lry="208" xml:id="p15r4"/>
+            <zone ulx="37" uly="199" lrx="608" lry="242" xml:id="p15r5"/>
+            <zone ulx="41" uly="234" lrx="625" lry="282" xml:id="p15r6"/>
+            <zone ulx="42" uly="270" lrx="641" lry="334" xml:id="p15r7"/>
+            <zone ulx="40" uly="321" lrx="655" lry="381" xml:id="p15r8"/>
+            <zone ulx="48" uly="366" lrx="656" lry="426" xml:id="p15r9"/>
+            <zone ulx="53" uly="413" lrx="672" lry="486" xml:id="p15r10"/>
+            <zone ulx="50" uly="459" lrx="635" lry="510" xml:id="p15r11"/>
+            <zone ulx="47" uly="494" lrx="642" lry="558" xml:id="p15r12"/>
+            <zone ulx="47" uly="541" lrx="646" lry="607" xml:id="p15r13"/>
+            <zone ulx="63" uly="594" lrx="636" lry="659" xml:id="p15r14"/>
+            <zone ulx="52" uly="640" lrx="596" lry="689" xml:id="p15r15"/>
+            <zone ulx="55" uly="680" lrx="653" lry="728" xml:id="p15r16"/>
+            <zone ulx="70" uly="717" lrx="626" lry="761" xml:id="p15r17"/>
+            <zone ulx="67" uly="761" lrx="658" lry="804" xml:id="p15r18"/>
+            <zone ulx="66" uly="799" lrx="651" lry="841" xml:id="p15r19"/>
+            <zone ulx="67" uly="839" lrx="652" lry="888" xml:id="p15r20"/>
+            <zone ulx="63" uly="879" lrx="640" lry="935" xml:id="p15r21"/>
+            <zone ulx="56" uly="925" lrx="660" lry="975" xml:id="p15r22"/>
+        </surface>
+
+        <surface xml:id="pagina19">
+            <graphic url='pag.19.jpeg' width='752.4px' height='1024.4px' />
+            <zone ulx="87" uly="93" lrx="677" lry="134" xml:id="p19r1"/>
+            <zone ulx="95" uly="134" lrx="671" lry="169" xml:id="p19r2"/>
+            <zone ulx="95" uly="170" lrx="671" lry="216" xml:id="p19r3"/>
+            <zone ulx="94" uly="206" lrx="641" lry="250" xml:id="p19r4"/>
+            <zone ulx="94" uly="248" lrx="645" lry="289" xml:id="p19r5"/>
+            <zone ulx="92" uly="286" lrx="676" lry="327" xml:id="p19r6"/>
+            <zone ulx="97" uly="326" lrx="644" lry="356" xml:id="p19r7"/>
+            <zone ulx="84" uly="358" lrx="678" lry="401" xml:id="p19r8"/>
+            <zone ulx="91" uly="402" lrx="657" lry="438" xml:id="p19r9"/>
+            <zone ulx="389" uly="431" lrx="478" lry="454" xml:id="p19r10corr"/>
+            <zone ulx="95" uly="439" lrx="650" lry="479" xml:id="p19r10"/>
+            <zone ulx="95" uly="480" lrx="642" lry="512" xml:id="p19r11"/>
+            <zone ulx="91" uly="517" lrx="675" lry="554" xml:id="p19r12"/>
+            <zone ulx="95" uly="557" lrx="671" lry="594" xml:id="p19r13"/>
+            <zone ulx="95" uly="588" lrx="689" lry="635" xml:id="p19r14"/>
+            <zone ulx="83" uly="627" lrx="688" lry="668" xml:id="p19r15"/>
+            <zone ulx="91" uly="670" lrx="677" lry="713" xml:id="p19r16"/>
+            <zone ulx="92" uly="706" lrx="699" lry="751" xml:id="p19r17"/>
+            <zone ulx="95" uly="747" lrx="656" lry="782" xml:id="p19r18"/>
+            <zone ulx="91" uly="787" lrx="668" lry="826" xml:id="p19r19"/>
+            <zone ulx="89" uly="823" lrx="660" lry="861" xml:id="p19r20"/>
+            <zone ulx="87" uly="859" lrx="670" lry="906" xml:id="p19r21"/>
+            <zone ulx="85" uly="902" lrx="669" lry="937" xml:id="p19r22"/>
+        </surface>   
+    </facsimile>
+    
+    <text xml:lang="it">
+        <body>
+            <div type="diary">
+                <pb facs="#pagina14" xml:id="p14"/>
+                    <ab>
+                        <s>
+                            <lb break="yes" facs="#p14r1" xml:id="p14_r1"/>
+                            anticomunismo o a buona ragione<pc>.</pc> 
+                        </s>
+                        <s>
+                            Molti
+                            <lb break="yes" facs="#p14r2" xml:id="p14_r2"/>
+                            ragazzi interpretano il comunismo come
+                            <lb break="yes" facs="#p14r3" xml:id="p14_r3"/>
+                            un sistema di anarchia<pc>,</pc> disubbidienza
+                            <lb break="yes" facs="#p14r4" xml:id="p14_r4"/>
+                            e preda<pc>.</pc> 
+                        </s>
+                        <s>
+                            <del rend="overstrike">Ieri</del>L'altro ieri uno dichiarava
+                            <lb break="yes" facs="#p14r5" xml:id="p14_r5"/>
+                            che ora non ci sono più ufficiali e sol<pc type="syllabication">-</pc>
+                            <lb break="no" facs="#p14r6" xml:id="p14_r6"/>
+                            dati<pc>,</pc> mentre un altro si riprometteva di
+                            <lb break="yes" facs="#p14r7" xml:id="p14_r7"/>
+                            far sua una villa di <persName ref="#AG">Agnelli</persName><pc>.</pc> 
+                        </s>
+                        <s>
+                            Un sottouffi<pc type="syllabication">=</pc>
+                            <lb break="no" facs="#p14r8" xml:id="p14_r8"/>
+                            ciale <del rend="overstrike">per</del> se ne è andato dicendo di
+                            <lb break="yes" facs="#p14r9" xml:id="p14_r9"/>
+                            non voler <del rend="overstrike"><gap atLeast="1" atMost="2" unit="chars" reason="illegible"/></del>servire nell'esercito di
+                            <lb break="yes" facs="#p14r10" xml:id="p14_r10"/>
+                            <persName ref="#FR">Franceschiello</persName> e i ceti militari e mode<pc type="syllabication">-</pc>
+                            <lb break="no" facs="#p14r11" xml:id="p14_r11"/>
+                            rati protestano<pc>.</pc> 
+                        </s>
+                        <s>
+                            Io cerco di calmarli in
+                            <lb break="yes" facs="#p14r12" xml:id="p14_r12"/>
+                            nome del <orgName ref="#FN"><choice><abbr>Fr<pc><am>.</am></pc> Naz<pc><am>.</am></pc></abbr><expan resp="#DM">Fr<ex>onte</ex> Naz<ex>ionale</ex></expan></choice></orgName> secondo le istruzioni
+                            <lb break="yes" facs="#p14r13" xml:id="p14_r13"/>
+                            del <orgName ref="#PDA"><choice><abbr>P<pc><am>.</am></pc>d<pc><am>.</am></pc>A<pc><am>.</am></pc></abbr><expan resp="#DM">P<ex>artito</ex> d'A<ex>azione</ex></expan></choice></orgName><pc>.</pc> 
+                        </s>
+                        <s>
+                            <persName ref="#AN"><choice><abbr>Ant<pc><am>.</am></pc></abbr><expan resp="#DM">Ant<ex>onio Giolitti</ex></expan></choice></persName> dovrebbe intervenire
+                            <lb break="yes" facs="#p14r14" xml:id="p14_r14"/>
+                            come <choice><abbr>Comm<pc><am>.</am></pc></abbr><expan resp="#DM">Comm<ex>issario</ex></expan></choice> ma tace sempre<pc>.</pc>  
+                        </s>
+                        <s>
+                            Per fortuna
+                            <lb break="yes" facs="#p14r15" xml:id="p14_r15"/>
+                            ora <del rend="overstrike"><gap atLeast="1" atMost="1" unit="chars" reason="illegible"/></del>è arrivato un ufficiale rosso<pc>,</pc> re<pc type="syllabication">=</pc>
+                            <lb break="no" facs="#p14r16" xml:id="p14_r16"/>
+                            duce dalla <orgName ref="#BG"><sic>legione</sic><corr resp="#DM">Brigata</corr> Garibaldi</orgName> in <country key="ES"><sic>Ispagna</sic><corr resp="#DM">Spagna</corr></country><pc>,</pc>
+                            <lb break="yes" facs="#p14r17" xml:id="p14_r17"/>
+                            che sa farsi obbedire e <del rend="overstrike">data</del> con il<del rend="overstrike">a</del>
+                            <lb break="yes" facs="#p14r18" xml:id="p14_r18"/>
+                            su<sic>a</sic><corr rend="overwritten" resp="#EA">o</corr> passato comunista non può essere
+                            <lb break="yes" facs="#p14r19" xml:id="p14_r19"/>
+                            tacciato di reazionario<pc>:</pc> ha lo <del rend="overstrike"><gap reason="illegible"/></del>
+                            <lb break="yes" facs="#p14r20" xml:id="p14_r20"/>
+                            pseudonimo di <persName ref="#CAR">Carnera</persName><pc>.</pc> 
+                        </s>
+                        <s>
+                            Io vorrei
+                            <lb break="yes" facs="#p14r21" xml:id="p14_r21"/>
+                            far qui esperienza per 15 o 20
+                            <lb break="yes" facs="#p14r22" xml:id="p14_r22"/>
+                            giorni e poi passare ad un posto di
+                            <lb break="yes" facs="#p14r23" xml:id="p14_r23"/>
+                            maggiore responsabilità<pc>.</pc>
+                        </s>
+                    </ab>
+                <pb facs="#pagina15" xml:id="p15"/>
+                    <ab>
+                        <s>
+                            <lb break="yes" facs="#p15r1" xml:id="p15_r1"/>
+                            Quando penso agli agi di una volta
+                            <lb break="yes" facs="#p15r2" xml:id="p15_r2"/>
+                            e alla loro completa fine<pc>,</pc> mi stupisco
+                            <lb break="yes" facs="#p15r3" xml:id="p15_r3"/>
+                            di non soffrire quasi per la loro
+                            <lb break="yes" facs="#p15r4" xml:id="p15_r4"/>
+                            perdita<pc>.</pc> 
+                        </s>
+                        <s>
+                            In questa camera non
+                            <lb break="yes" facs="#p15r5" xml:id="p15_r5"/>
+                            c'è la tavola e scrivo sul letto in
+                            <lb break="yes" facs="#p15r6" xml:id="p15_r6"/>
+                            una mezza oscurità<pc>.</pc> 
+                        </s>
+                        <s>
+                            Ci sono due
+                            <lb break="yes" facs="#p15r7" xml:id="p15_r7"/>
+                            letti e in quello dove non dormo
+                            <lb break="yes" facs="#p15r8" xml:id="p15_r8"/>
+                            io tutte le sere viene qualche <del rend="overstrike">pas</del>
+                            <lb break="yes" facs="#p15r9" xml:id="p15_r9"/>
+                            viaggiatore che spesso russa e alla
+                            <lb break="yes" facs="#p15r10" xml:id="p15_r10"/>
+                            mattina seguente <del rend="overstrike">parte co</del> si alza
+                            <lb break="yes" facs="#p15r11" xml:id="p15_r11"/>
+                            con gran fracasso e prende il treno
+                            <lb break="yes" facs="#p15r12" xml:id="p15_r12"/>
+                            delle sei<pc>.</pc> 
+                        </s>
+                        <s>
+                            Se non vado dai <persName ref="#PS"><choice><abbr>S<pc><am>.</am></pc></abbr><expan resp="#DM">S<ex>egre</ex></expan></choice></persName> per
+                            <lb break="yes" facs="#p15r13" xml:id="p15_r13"/>
+                            far lezione a <persName ref="#PS">Paola</persName> devo girare
+                            <lb break="yes" facs="#p15r14" xml:id="p15_r14"/>
+                            al freddo senza una sedia<pc>,</pc> si
+                            <lb break="yes" facs="#p15r15" xml:id="p15_r15"/>
+                            può dire<pc>,</pc> per me<pc>.</pc> 
+                        </s>
+                        <s>
+                            Non ho la
+                            <lb break="yes" facs="#p15r16" xml:id="p15_r16"/>
+                            fermezza di studiare<pc>.</pc> 
+                        </s>
+                        <s>
+                            Unico lavoro
+                            <lb break="yes" facs="#p15r17" xml:id="p15_r17"/>
+                            intellettuale la compilazione di
+                            <lb break="yes" facs="#p15r18" xml:id="p15_r18"/>
+                            questo diario che fra qualche anno<pc>,</pc>
+                            <lb break="yes" facs="#p15r19" xml:id="p15_r19"/>
+                            se sarò vivo e tranquillo potrò
+                            <lb break="yes" facs="#p15r20" xml:id="p15_r20"/>
+                            <sic>rielarare</sic><corr resp="#DM">rielaborare</corr> e limare<pc>,</pc> purificandolo
+                            <lb break="yes" facs="#p15r21" xml:id="p15_r21"/>
+                            dal molto inutile e conservando
+                            <lb break="yes" facs="#p15r22" xml:id="p15_r22"/>
+                            <del resp="#EA" rend="overstrike">l</del><sic>e</sic><corr resp="#EA" rend="overwritten">i</corr> poch<sic>e</sic><corr resp="#EA" rend="overwritten">i</corr> <del rend="overstrike">notizie</del> appunti interessanti
+                        </s>    
+                    </ab>
+                <pb facs="#pagina19" xml:id="p19"/>
+                    <ab>
+                        <s>
+                            <lb break="yes" facs="#p19r1" xml:id="p19_r1"/>
+                            chiesto se credo in Dio<pc>,</pc> il che è una domanda
+                            <lb break="yes" facs="#p19r2" xml:id="p19_r2"/>
+                            da ignorante e poi ha cominciato una
+                            <lb break="yes" facs="#p19r3" xml:id="p19_r3"/>
+                            specie di propaganda dicendo che se non in
+                            <lb break="yes" facs="#p19r4" xml:id="p19_r4"/>
+                            teoria<pc>,</pc> almeno in pratica sono comunista<pc>.</pc>
+                        </s>
+                        <s>
+                            <lb break="yes" facs="#p19r5" xml:id="p19_r5"/>
+                            Le ho risposto il solito dicorso che <choice><abbr>Com</abbr><expan resp="#DM">Com<ex>unismo</ex></expan></choice> e
+                            <lb break="yes" facs="#p19r6" xml:id="p19_r6"/>
+                            <orgName ref="#PDA"><choice><abbr>P<pc><am>.</am></pc> d'A<pc><am>.</am></pc></abbr><expan resp="#DM">P<ex>artito</ex> d'A<ex>zione</ex></expan></choice></orgName> sono paralleli<pc>.</pc> 
+                        </s>
+                        <s>
+                            Il primo tende alla
+                            <lb break="yes" facs="#p19r7" xml:id="p19_r7"/>
+                            libertà attraverso la giustizia<pc>,</pc> il secondo
+                            <lb break="yes" facs="#p19r8" xml:id="p19_r8"/>
+                            alla giustizia attraverso la libertà<pc>,</pc> ma l'azione
+                            <lb break="yes" facs="#p19r9" xml:id="p19_r9"/>
+                            è uguale<pc>.</pc> 
+                        </s>
+                        <s>
+                            Molte persone che rifuggono dal <choice><abbr>com<pc><am>.</am></pc></abbr><expan resp="#DM">com<ex>unismo</ex></expan></choice>
+                            <lb break="yes" facs="#p19r10" xml:id="p19_r10"/>
+                            spaventate dal nome stesso <add facs="p19r10corr" xml:id="p19_r10corr" place="above">oltre che</add> <del rend="overstrike">e</del> dal<del rend="overstrike">l</del> programma
+                            <lb break="yes" facs="#p19r11" xml:id="p19_r11"/>
+                            <del rend="overstrike">passerebb</del> entrerebbero nei partiti di destra
+                            <lb break="yes" facs="#p19r12" xml:id="p19_r12"/>
+                            se il <orgName ref="#PDA"><choice><abbr>P<pc><am>.</am></pc>d<pc><am>.</am></pc>A<pc><am>.</am></pc></abbr><expan resp="#DM">P<ex>artito</ex> d'A<ex>azione</ex></expan></choice></orgName> non le educasse a una <del rend="overstrike">maggiore</del>
+                            <lb break="yes" facs="#p19r13" xml:id="p19_r13"/>
+                            comprensione del problema sociale<pc>.</pc> 
+                        </s>
+                        <s>
+                            <persName ref="#GI">Gina</persName> dice
+                            <lb break="yes" facs="#p19r14" xml:id="p19_r14"/>
+                            di conoscere <persName ref="#IK">Kant</persName> e <persName ref="#BC">Croce</persName><pc>,</pc> ma mi pare che si illuda<pc>.</pc>
+                        </s>
+                        <s>
+                            <lb break="yes" facs="#p19r15" xml:id="p19_r15"/>
+                            Tuttavia bisogna riconoscere che gli operai comunisti
+                            <lb break="yes" facs="#p19r16" xml:id="p19_r16"/>
+                            sono molto più colti e più aperti al pensiero degli
+                            <lb break="yes" facs="#p19r17" xml:id="p19_r17"/>
+                            altri<pc>:</pc> o <del rend="overstrike">che</del> <del rend="overstrike">la</del> i più intelligenti <del>passo</del> abbracciano
+                            <lb break="yes" facs="#p19r18" xml:id="p19_r18"/>
+                            il <choice><abbr>com</abbr><expan resp="#DM">com<ex>unismo</ex></expan></choice><pc>,</pc> o il <choice><abbr>com</abbr><expan resp="#DM">com<ex>unismo</ex></expan></choice> l<sic>e</sic><corr rend="overwritten" resp="#EA">i</corr> educa<del rend="overstrike"><gap atLeast="1" atMost="1" unit="chars" reason="illegible"/></del><pc>:</pc> comunque <del rend="overstrike">sta</del>
+                            <lb break="yes" facs="#p19r19" xml:id="p19_r19"/>
+                            questa è una grande lode per il partito<pc>.</pc> 
+                        </s>
+                        <s>
+                            Oggi
+                            <lb break="yes" facs="#p19r20" xml:id="p19_r20"/>
+                            scrivo in un'osteria dove verrò forse tutti i
+                            <lb break="yes" facs="#p19r21" xml:id="p19_r21"/>
+                            giorni a fare il mio lavoro<pc>.</pc> 
+                        </s>
+                        <s>
+                            Spero di aver tempo
+                            <lb break="yes" facs="#p19r22" xml:id="p19_r22"/>
+                            per studiare storia e filosofia per il concorso<pc>.</pc>
+                        </s>
+                    </ab>
+            </div>
+        </body>
+    </text>
+
+    <standOff>
+
+        <listOrg>
+
+            <head>Organizzazioni citate nel documento</head>
+
+            <org xml:id="FN">
+                <orgName>Fronte Nazionale</orgName>
+                <desc>
+                    Non è chiaro a cosa si riferisca <persName ref="#EA">Artom</persName> con questo nome, citato più volte nel corso delle sue pagine di diario. Potrebbe intendere forse il <orgName>Comitato di Liberazione Nazionale (CLN)</orgName>, che fu un'organizzazione politica e militare italiana costituita dai principali partiti e movimenti antifascisti del Paese, formatasi a <settlement type="city">Roma</settlement> il <date when="1943-09-09">9 settembre 1943</date>, allo scopo di opporsi all'occupazione tedesca e al nazifascismo in <country key="IT">Italia</country>; si sciolse nel <date when="1947">1947</date>. L'organizzazione operò come organismo clandestino durante la Resistenza ed ebbe per delega poteri di governo nei giorni di insurrezione nazionale.
+                </desc>
+            </org>
+
+            <org xml:id="PDA">
+                <orgName>Partito d'Azione</orgName>
+                <desc>
+                    Il <orgName>Partito d'Azione (PdA)</orgName> è stato un partito politico italiano di centro-sinistra fondato nel <date when="1942">1942</date>;
+                    trasse il nome dall'omonimo partito fondato da <persName>Mazzini</persName> nel <date when="1853">1853</date> e scioltosi nel <date when="1867">1867</date>, che aveva avuto tra i suoi obiettivi le elezioni a suffragio universale, la libertà di stampa e di pensiero, la responsabilizzazione dei governi nei confronti del popolo. Venne ricostituito il <date when="1942-06-04">4 giugno 1942</date> nell'abitazione romana di <persName>Federico Comandini</persName>. Ebbe vita breve e si sciolse nel <date when="1947">1947</date>. I suoi membri furono chiamati "azionisti" e il suo organo ufficiale era <orgName>L'Italia libera</orgName>.
+                </desc>
+            </org>
+
+            <org xml:id="BG">
+                <orgName>Brigata Garibaldi</orgName>
+                <desc>
+                    Il <orgName>Battaglione Garibaldi</orgName> fu una formazione militare, costituita da volontari italiani nel <date when="1936">1936</date>, per combattere le forze nazionaliste comandate dal generale <persName>Francisco Franco</persName> nella guerra civile spagnola, a supporto dell'<orgName>Ejército Popular de la República</orgName> della <country key="ES">Repubblica Spagnola</country>.
+                    Il <date when="1937-04-30">30 aprile 1937</date>, fu elevato a rango di Brigata.
+                </desc>
+            </org>
+
+        </listOrg>
+
+        <listPerson>
+
+            <head>Persone citate nel documento</head>
+
+            <person xml:id="EA">
+                <persName>
+                    <forename>Emanuele</forename>
+                    <surname>Artom</surname>
+                </persName>
+                <sex value="M">Uomo</sex>
+                <birth>
+                    <date when="1915-06-23">23 giugno 1915</date>
+                    <placeName>
+                        <settlement type="municipality">Aosta</settlement>
+                        <region>Valle d'Aosta</region>
+                        <country key="IT">Italia</country>
+                    </placeName>
+                </birth>
+                <death>
+                    <date when="1944-04-07">7 aprile 1944</date>
+                    <placeName>
+                        <settlement type="municipality">Torino</settlement>
+                        <region>Piemonte</region>
+                        <country key="IT">Italia</country>
+                    </placeName>
+                </death>
+                <note>È stato un partigiano e storico italiano di origine ebraica<pc>,</pc> combattente della Resistenza<pc>.</pc></note>
+            </person>
+
+            <person xml:id="ASA">
+                <persName>
+                    <forename>Amalia</forename>
+                    <surname>Segre Artom</surname>
+                </persName>
+                <sex value="F">Donna</sex>
+                <birth>
+                    <date when="1890">1890</date>
+                    <placeName>
+                        <settlement type="municipality">Torino</settlement>
+                        <region>Piemonte</region>
+                        <country key="IT">Italia</country>
+                    </placeName>
+                </birth>
+                <death>
+                    <date when="1972-10-09">9 ottobre 1972</date>
+                    <placeName>
+                        <settlement type="municipality">Torino</settlement>
+                        <region>Piemonte</region>
+                        <country key="IT">Italia</country>
+                    </placeName>
+                </death>
+                <note>È stata un'insegnante, madre di <persName ref="#EA">Emanuele Artom</persName><pc>,</pc> ha raccolto e custodito i diari codificati in questo file<pc>.</pc></note>
+            </person>
+
+            <person xml:id="AG">
+                <persName>
+                    <surname>Agnelli</surname>
+                </persName>
+                <note>Il cognome viene citato nel diario in riferimento a una villa della ricca famiglia fondatrice della fabbrica di automobili torinese <orgName>FIAT</orgName><pc>.</pc></note>
+            </person>
+
+            <person xml:id="FR">
+                <persName>
+                    <forename>Francesco</forename>
+                    <surname>d'Assisi Maria Leopoldo</surname>
+                </persName>
+                <note>Francesco II delle Due Sicilie<pc>,</pc> soprannominato Franceschiello<pc>,</pc> fu l'ultimo re del Regno delle Due Sicilie<pc>.</pc></note>
+            </person>
+
+            <person xml:id="AN">
+                <persName>
+                    <forename>Antonio</forename>
+                    <surname>Giolitti</surname>
+                </persName>
+                <note>È stato un politico e partigiano italiano<pc>;</pc> fu uno dei fondatori delle <orgName ref="#BG">Brigate Garibaldi</orgName><pc>,</pc> che diedero un contributo fondamentale alla Liberazione e alla lotta antinazista e antifascista in <country key="IT">Italia</country> e<pc>,</pc> in particolare<pc>,</pc> in <placeName><region>Piemonte</region></placeName><pc>.</pc></note>
+            </person>
+
+            <person xml:id="CAR">
+                <persName>
+                    Carnera
+                </persName>
+                <note>Non è possibile rintracciare una identità certa di questo personaggio che <persName ref="#EA">Artom</persName> cita più volte nel corso dei suoi diari<pc>;</pc> stando alle parole dell'autore questo <persName>Carnera</persName> aveva combattuto nella <orgName ref="#BG">Brigata Garibaldi</orgName> in <country key="ES">Spagna</country> ed era di umili origini <pc>(</pc>prima<pc>,</pc> stando alle parole di <persName ref="#EA">Artom</persName><pc>,</pc> faceva il calzolaio<pc>)</pc><pc>.</pc></note>
+            </person>
+            
+            <person xml:id="PS">
+                <persName>
+                    <forename>Paola</forename>
+                    <surname>Segre</surname>
+                </persName>
+            </person>
+
+            <person xml:id="GI">
+                <persName>Gina</persName>
+            </person>
+
+            <person xml:id="IK">
+                <persName>
+                    <forename>Immanuel</forename>
+                    <surname>Kant</surname>
+                </persName>
+                <note>È stato un filosofo tedesco<pc>;</pc> considerato una delle figure più importanti dell'intera storia della filosofia<pc>,</pc> fu il più significativo esponente dell'Illuminismo tedesco<pc>,</pc> anticipatore degli elementi basilari della filosofia idealistica<pc>.</pc></note>
+            </person>
+
+            <person xml:id="BC">
+                <persName>
+                    <forename>Benedetto</forename>
+                    <surname>Croce</surname>
+                </persName>
+                <note>È stato un filosofo<pc>,</pc> storico<pc>,</pc> politico<pc>,</pc> critico letterario e scrittore italiano<pc>,</pc> principale ideologo del liberalismo novecentesco italiano ed esponente del neoidealismo<pc>.</pc></note>
+            </person>
+
+        </listPerson>
+    </standOff>
+</TEI>
