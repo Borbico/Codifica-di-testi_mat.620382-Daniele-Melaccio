@@ -40,8 +40,10 @@
                 </publisher>
                 <pubPlace><settlement type="city">Pisa</settlement></pubPlace>
                 <address>
-                    <country key="IT"/>
-                    <postCode>56127</postCode>
+                    <street>Lungarno Pacinotti, 43</street>
+                    <postCode>56126</postCode>
+                    <settlement type="city">Pisa</settlement>
+                    <country key="IT">Italia</country>
                 </address>
                 <availability>
                     <p>Testo con libero accesso</p>
@@ -72,13 +74,13 @@
                                     </note>
                                 </extent>
                                 <foliation>
-                                    Sulle pagine non è riportata nessuna numerazione<pc>.</pc>
+                                    Sulle pagine non è riportata alcuna numerazione<pc>.</pc>
                                 </foliation>
                                 <collation>
                                     Le pagine del diario non sono rilegate tra loro<pc>,</pc> e i singoli fogli sembrano provenire da fonti diverse per qualità della carta<pc>,</pc> spessore e tipologia di superficie<pc>.</pc> L'autore ha utilizzato in maniera alternata una penna a inchiostro nero e una matita a grafite<pc>.</pc> Le pagine sono scritte da sinistra verso destra e dall'alto verso il basso<pc>.</pc>
                                 </collation>
                                 <condition>
-                                    Le pagine sono in buone condizioni di conservazione e sono facilmente leggibili<pc>;</pc> alcuni fogli presentano strappi e buchi lungo i bordi e alcune macchie di sporco <pc>.</pc>
+                                    Le pagine sono in buone condizioni di conservazione e sono facilmente leggibili<pc>;</pc> alcuni fogli presentano strappi e buchi lungo i bordi e alcune macchie di sporco<pc>.</pc>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -110,22 +112,22 @@
         <encodingDesc>
             <editorialDecl>
                 <correction>
-                    <p>Le correzioni agli errori grammaticali sono state eseguite secondo i principi e le regole della grammatica della lingua italiana<pc>.</pc></p>
+                    <p>Le correzioni degli errori grammaticali sono state eseguite secondo i principi e le regole della grammatica della lingua italiana<pc>.</pc></p>
                 </correction>
                 <normalization>
-                    <p>Non sono stati applicati accorgimenti di normalizzazione sul testo originale<pc>.</pc></p>
+                    <p>Gli accorgimenti di normalizzazione sul testo originale sono stati applicati nel modificare <pc>"</pc>Ispagna<pc>"</pc> in <pc>"</pc>Spagna<pc>"</pc><pc>,</pc> nell'aggiungere un punto a fine pagina 15<pc>,</pc> nel modificare un carattere <pc>"</pc><pc>:</pc><pc>"</pc> in <pc>"</pc><pc>;</pc><pc>"</pc> e infine nel sostituire i caratteri utilizzati per la sillabazione prima del ritorno a capo<pc>.</pc></p>
                 </normalization>
                 <punctuation>
                     <p>I segni di punteggiatura sono stati mantenuti come nell'originale<pc>.</pc></p>
                 </punctuation>
                 <hyphenation>
-                    <p>La sillabazione delle parole per il ritorno a capo è stata mantenuta come presente nell'originale<pc>,</pc> come è stato mantenuto l'utilizzo di caratteri <gi>-</gi> e <gi>=</gi> per segnalare le parole spezzate<pc>;</pc> inoltre per ogni riga è indicato se inizia con una parola intera o con una parola spezzata dalla riga precedente<pc>.</pc></p>
+                    <p>La sillabazione delle parole per il ritorno a capo è stata mantenuta come presente nell'originale<pc>,</pc> ma è stato normalizzato l'utilizzo del carattere <pc>"</pc><gi>-</gi><pc>"</pc> al posto di <pc>"</pc><gi>=</gi><pc>"</pc> per segnalare le parole spezzate<pc>;</pc> inoltre per ogni riga è indicato se inizia con una parola intera o con una parola spezzata dalla riga precedente<pc>.</pc></p>
                 </hyphenation>
                 <interpretation>
                     <p>L'autore fa utilizzo di sigle e abbreviazioni che sono state sciolte e interpretate in fase di trascrizione<pc>,</pc> affiancando la versione originale alla versione estesa<pc>.</pc></p>
                 </interpretation>
                 <segmentation>
-                    <p>Le pagine codificate sono raccolte all'interno di un tag <gi>div</gi> e le singole pagine corrispondono a una <gi>milestone</gi> che contiene un tag <gi>ab</gi><pc>,</pc> all'interno del quale il testo è diviso per righe con il tag <gi>lb</gi> e per periodi con il tag <gi>s</gi><pc>.</pc></p>
+                    <p>Le pagine codificate sono raccolte all'interno di un tag <pc>"</pc><gi>div</gi><pc>"</pc> e le singole pagine corrispondono a una <gi>milestone</gi> che contiene un tag <pc>"</pc><gi>ab</gi><pc>"</pc><pc>,</pc> all'interno del quale il testo è diviso per righe con il tag <pc>"</pc><gi>lb</gi><pc>"</pc> e per periodi con il tag <pc>"</pc><gi>s</gi><pc>"</pc><pc>.</pc></p>
                 </segmentation>
             </editorialDecl>
         </encodingDesc>
@@ -142,7 +144,7 @@
     </teiHeader>
 
     <facsimile>
-        <surface xml:id="pagina14">
+        <surface xml:id="pagina14" n="14">
             <graphic url='pag.14.jpeg' width='738.4px' height='1024.4px' />
             <zone ulx="29" uly="25" lrx="690" lry="69" xml:id="p14r1"/>
             <zone ulx="35" uly="66" lrx="696" lry="117" xml:id="p14r2"/>
@@ -170,7 +172,7 @@
 
         </surface>
 
-        <surface xml:id="pagina15">
+        <surface xml:id="pagina15" n="15">
             <graphic url='pag.15.jpeg' width='724.4px' height='1024.4px' />
             <zone ulx="44" uly="35" lrx="638" lry="91" xml:id="p15r1"/>
             <zone ulx="45" uly="82" lrx="653" lry="132" xml:id="p15r2"/>
@@ -196,7 +198,7 @@
             <zone ulx="56" uly="925" lrx="660" lry="975" xml:id="p15r22"/>
         </surface>
 
-        <surface xml:id="pagina19">
+        <surface xml:id="pagina19" n="19">
             <graphic url='pag.19.jpeg' width='752.4px' height='1024.4px' />
             <zone ulx="87" uly="93" lrx="677" lry="134" xml:id="p19r1"/>
             <zone ulx="95" uly="134" lrx="671" lry="169" xml:id="p19r2"/>
@@ -227,207 +229,207 @@
     <text xml:lang="it">
         <body>
             <div type="diary">
-                <pb facs="#pagina14" xml:id="p14"/>
+                <pb facs="#pagina14" xml:id="p14" n="14"/>
                     <ab>
                         <s>
-                            <lb break="yes" facs="#p14r1" xml:id="p14_r1"/>
+                            <lb break="yes" facs="#p14r1" xml:id="p14_r1" n="1"/>
                             anticomunismo o a buona ragione<pc>.</pc> 
                         </s>
                         <s>
                             Molti
-                            <lb break="yes" facs="#p14r2" xml:id="p14_r2"/>
+                            <lb break="yes" facs="#p14r2" xml:id="p14_r2" n="2"/>
                             ragazzi interpretano il comunismo come
-                            <lb break="yes" facs="#p14r3" xml:id="p14_r3"/>
+                            <lb break="yes" facs="#p14r3" xml:id="p14_r3" n="3"/>
                             un sistema di anarchia<pc>,</pc> disubbidienza
-                            <lb break="yes" facs="#p14r4" xml:id="p14_r4"/>
+                            <lb break="yes" facs="#p14r4" xml:id="p14_r4" n="4"/>
                             e preda<pc>.</pc> 
                         </s>
                         <s>
                             <del rend="overstrike">Ieri</del>L'altro ieri uno dichiarava
-                            <lb break="yes" facs="#p14r5" xml:id="p14_r5"/>
+                            <lb break="yes" facs="#p14r5" xml:id="p14_r5" n="5"/>
                             che ora non ci sono più ufficiali e sol<pc type="syllabication">-</pc>
-                            <lb break="no" facs="#p14r6" xml:id="p14_r6"/>
+                            <lb break="no" facs="#p14r6" xml:id="p14_r6" n="6"/>
                             dati<pc>,</pc> mentre un altro si riprometteva di
-                            <lb break="yes" facs="#p14r7" xml:id="p14_r7"/>
+                            <lb break="yes" facs="#p14r7" xml:id="p14_r7" n="7"/>
                             far sua una villa di <persName ref="#AG">Agnelli</persName><pc>.</pc> 
                         </s>
                         <s>
-                            Un sottouffi<pc type="syllabication">=</pc>
-                            <lb break="no" facs="#p14r8" xml:id="p14_r8"/>
+                            Un sottouffi<orig><pc type="syllabication">=</pc></orig><reg>-</reg>
+                            <lb break="no" facs="#p14r8" xml:id="p14_r8" n="8"/>
                             ciale <del rend="overstrike">per</del> se ne è andato dicendo di
-                            <lb break="yes" facs="#p14r9" xml:id="p14_r9"/>
+                            <lb break="yes" facs="#p14r9" xml:id="p14_r9" n="9"/>
                             non voler <del rend="overstrike"><gap atLeast="1" atMost="2" unit="chars" reason="illegible"/></del>servire nell'esercito di
-                            <lb break="yes" facs="#p14r10" xml:id="p14_r10"/>
+                            <lb break="yes" facs="#p14r10" xml:id="p14_r10" n="10"/>
                             <persName ref="#FR">Franceschiello</persName> e i ceti militari e mode<pc type="syllabication">-</pc>
-                            <lb break="no" facs="#p14r11" xml:id="p14_r11"/>
+                            <lb break="no" facs="#p14r11" xml:id="p14_r11" n="11"/>
                             rati protestano<pc>.</pc> 
                         </s>
                         <s>
                             Io cerco di calmarli in
-                            <lb break="yes" facs="#p14r12" xml:id="p14_r12"/>
+                            <lb break="yes" facs="#p14r12" xml:id="p14_r12" n="12"/>
                             nome del <orgName ref="#FN"><choice><abbr>Fr<pc><am>.</am></pc> Naz<pc><am>.</am></pc></abbr><expan resp="#DM">Fr<ex>onte</ex> Naz<ex>ionale</ex></expan></choice></orgName> secondo le istruzioni
-                            <lb break="yes" facs="#p14r13" xml:id="p14_r13"/>
-                            del <orgName ref="#PDA"><choice><abbr>P<pc><am>.</am></pc>d<pc><am>.</am></pc>A<pc><am>.</am></pc></abbr><expan resp="#DM">P<ex>artito</ex> d'A<ex>azione</ex></expan></choice></orgName><pc>.</pc> 
+                            <lb break="yes" facs="#p14r13" xml:id="p14_r13" n="13"/>
+                            del <orgName ref="#PDA"><choice><abbr>P<pc><am>.</am></pc>d<pc><am>.</am></pc>A<pc><am>.</am></pc></abbr><expan resp="#DM">P<ex>artito</ex> d'A<ex>zione</ex></expan></choice></orgName><pc>.</pc> 
                         </s>
                         <s>
                             <persName ref="#AN"><choice><abbr>Ant<pc><am>.</am></pc></abbr><expan resp="#DM">Ant<ex>onio Giolitti</ex></expan></choice></persName> dovrebbe intervenire
-                            <lb break="yes" facs="#p14r14" xml:id="p14_r14"/>
+                            <lb break="yes" facs="#p14r14" xml:id="p14_r14" n="14"/>
                             come <choice><abbr>Comm<pc><am>.</am></pc></abbr><expan resp="#DM">Comm<ex>issario</ex></expan></choice> ma tace sempre<pc>.</pc>  
                         </s>
                         <s>
                             Per fortuna
-                            <lb break="yes" facs="#p14r15" xml:id="p14_r15"/>
-                            ora <del rend="overstrike"><gap atLeast="1" atMost="1" unit="chars" reason="illegible"/></del>è arrivato un ufficiale rosso<pc>,</pc> re<pc type="syllabication">=</pc>
-                            <lb break="no" facs="#p14r16" xml:id="p14_r16"/>
-                            duce dalla <orgName ref="#BG"><sic>legione</sic><corr resp="#DM">Brigata</corr> Garibaldi</orgName> in <country key="ES"><sic>Ispagna</sic><corr resp="#DM">Spagna</corr></country><pc>,</pc>
-                            <lb break="yes" facs="#p14r17" xml:id="p14_r17"/>
-                            che sa farsi obbedire e <del rend="overstrike">data</del> con il<del rend="overstrike">a</del>
-                            <lb break="yes" facs="#p14r18" xml:id="p14_r18"/>
-                            su<sic>a</sic><corr rend="overwritten" resp="#EA">o</corr> passato comunista non può essere
-                            <lb break="yes" facs="#p14r19" xml:id="p14_r19"/>
+                            <lb break="yes" facs="#p14r15" xml:id="p14_r15" n="15"/>
+                            ora <del rend="overstrike"><gap atLeast="1" atMost="1" unit="chars" reason="illegible"/></del>è arrivato un ufficiale rosso<pc>,</pc> re<orig><pc type="syllabication">=</pc></orig><reg>-</reg>
+                            <lb break="no" facs="#p14r16" xml:id="p14_r16" n="16"/>
+                            duce dalla <orgName ref="#BG"><sic>legione</sic><corr resp="#DM">Brigata</corr> Garibaldi</orgName> in <country key="ES"><orig>Ispagna</orig><reg resp="#DM">Spagna</reg></country><pc>,</pc>
+                            <lb break="yes" facs="#p14r17" xml:id="p14_r17" n="17"/>
+                            che sa farsi obbedire e <del rend="overstrike">data</del> con <add hand="#EA">i</add>l<del rend="overstrike">a</del>
+                            <lb break="yes" facs="#p14r18" xml:id="p14_r18" n="18"/>
+                            su<subst><del hand="#EA">a</del><add rend="overwritten" hand="#EA">o</add></subst> passato comunista non può essere
+                            <lb break="yes" facs="#p14r19" xml:id="p14_r19" n="19"/>
                             tacciato di reazionario<pc>:</pc> ha lo <del rend="overstrike"><gap reason="illegible"/></del>
-                            <lb break="yes" facs="#p14r20" xml:id="p14_r20"/>
+                            <lb break="yes" facs="#p14r20" xml:id="p14_r20" n="20"/>
                             pseudonimo di <persName ref="#CAR">Carnera</persName><pc>.</pc> 
                         </s>
                         <s>
                             Io vorrei
-                            <lb break="yes" facs="#p14r21" xml:id="p14_r21"/>
+                            <lb break="yes" facs="#p14r21" xml:id="p14_r21" n="21"/>
                             far qui esperienza per 15 o 20
-                            <lb break="yes" facs="#p14r22" xml:id="p14_r22"/>
+                            <lb break="yes" facs="#p14r22" xml:id="p14_r22" n="22"/>
                             giorni e poi passare ad un posto di
-                            <lb break="yes" facs="#p14r23" xml:id="p14_r23"/>
+                            <lb break="yes" facs="#p14r23" xml:id="p14_r23" n="23"/>
                             maggiore responsabilità<pc>.</pc>
                         </s>
                     </ab>
-                <pb facs="#pagina15" xml:id="p15"/>
+                <pb facs="#pagina15" xml:id="p15" n="15"/>
                     <ab>
                         <s>
-                            <lb break="yes" facs="#p15r1" xml:id="p15_r1"/>
+                            <lb break="yes" facs="#p15r1" xml:id="p15_r1" n="1"/>
                             Quando penso agli agi di una volta
-                            <lb break="yes" facs="#p15r2" xml:id="p15_r2"/>
+                            <lb break="yes" facs="#p15r2" xml:id="p15_r2" n="2"/>
                             e alla loro completa fine<pc>,</pc> mi stupisco
-                            <lb break="yes" facs="#p15r3" xml:id="p15_r3"/>
+                            <lb break="yes" facs="#p15r3" xml:id="p15_r3" n="3"/>
                             di non soffrire quasi per la loro
-                            <lb break="yes" facs="#p15r4" xml:id="p15_r4"/>
+                            <lb break="yes" facs="#p15r4" xml:id="p15_r4" n="4"/>
                             perdita<pc>.</pc> 
                         </s>
                         <s>
                             In questa camera non
-                            <lb break="yes" facs="#p15r5" xml:id="p15_r5"/>
+                            <lb break="yes" facs="#p15r5" xml:id="p15_r5" n="5"/>
                             c'è la tavola e scrivo sul letto in
-                            <lb break="yes" facs="#p15r6" xml:id="p15_r6"/>
+                            <lb break="yes" facs="#p15r6" xml:id="p15_r6" n="6"/>
                             una mezza oscurità<pc>.</pc> 
                         </s>
                         <s>
                             Ci sono due
-                            <lb break="yes" facs="#p15r7" xml:id="p15_r7"/>
+                            <lb break="yes" facs="#p15r7" xml:id="p15_r7" n="7"/>
                             letti e in quello dove non dormo
-                            <lb break="yes" facs="#p15r8" xml:id="p15_r8"/>
+                            <lb break="yes" facs="#p15r8" xml:id="p15_r8" n="8"/>
                             io tutte le sere viene qualche <del rend="overstrike">pas</del>
-                            <lb break="yes" facs="#p15r9" xml:id="p15_r9"/>
+                            <lb break="yes" facs="#p15r9" xml:id="p15_r9" n="9"/>
                             viaggiatore che spesso russa e alla
-                            <lb break="yes" facs="#p15r10" xml:id="p15_r10"/>
+                            <lb break="yes" facs="#p15r10" xml:id="p15_r10" n="10"/>
                             mattina seguente <del rend="overstrike">parte co</del> si alza
-                            <lb break="yes" facs="#p15r11" xml:id="p15_r11"/>
+                            <lb break="yes" facs="#p15r11" xml:id="p15_r11" n="11"/>
                             con gran fracasso e prende il treno
-                            <lb break="yes" facs="#p15r12" xml:id="p15_r12"/>
+                            <lb break="yes" facs="#p15r12" xml:id="p15_r12" n="12"/>
                             delle sei<pc>.</pc> 
                         </s>
                         <s>
                             Se non vado dai <persName ref="#PS"><choice><abbr>S<pc><am>.</am></pc></abbr><expan resp="#DM">S<ex>egre</ex></expan></choice></persName> per
-                            <lb break="yes" facs="#p15r13" xml:id="p15_r13"/>
+                            <lb break="yes" facs="#p15r13" xml:id="p15_r13" n="13"/>
                             far lezione a <persName ref="#PS">Paola</persName> devo girare
-                            <lb break="yes" facs="#p15r14" xml:id="p15_r14"/>
+                            <lb break="yes" facs="#p15r14" xml:id="p15_r14" n="14"/>
                             al freddo senza una sedia<pc>,</pc> si
-                            <lb break="yes" facs="#p15r15" xml:id="p15_r15"/>
+                            <lb break="yes" facs="#p15r15" xml:id="p15_r15" n="15"/>
                             può dire<pc>,</pc> per me<pc>.</pc> 
                         </s>
                         <s>
                             Non ho la
-                            <lb break="yes" facs="#p15r16" xml:id="p15_r16"/>
+                            <lb break="yes" facs="#p15r16" xml:id="p15_r16" n="16"/>
                             fermezza di studiare<pc>.</pc> 
                         </s>
                         <s>
                             Unico lavoro
-                            <lb break="yes" facs="#p15r17" xml:id="p15_r17"/>
+                            <lb break="yes" facs="#p15r17" xml:id="p15_r17" n="17"/>
                             intellettuale la compilazione di
-                            <lb break="yes" facs="#p15r18" xml:id="p15_r18"/>
+                            <lb break="yes" facs="#p15r18" xml:id="p15_r18" n="18"/>
                             questo diario che fra qualche anno<pc>,</pc>
-                            <lb break="yes" facs="#p15r19" xml:id="p15_r19"/>
+                            <lb break="yes" facs="#p15r19" xml:id="p15_r19" n="19"/>
                             se sarò vivo e tranquillo potrò
-                            <lb break="yes" facs="#p15r20" xml:id="p15_r20"/>
+                            <lb break="yes" facs="#p15r20" xml:id="p15_r20" n="20"/>
                             <sic>rielarare</sic><corr resp="#DM">rielaborare</corr> e limare<pc>,</pc> purificandolo
-                            <lb break="yes" facs="#p15r21" xml:id="p15_r21"/>
+                            <lb break="yes" facs="#p15r21" xml:id="p15_r21" n="21"/>
                             dal molto inutile e conservando
-                            <lb break="yes" facs="#p15r22" xml:id="p15_r22"/>
-                            <del resp="#EA" rend="overstrike">l</del><sic>e</sic><corr resp="#EA" rend="overwritten">i</corr> poch<sic>e</sic><corr resp="#EA" rend="overwritten">i</corr> <del rend="overstrike">notizie</del> appunti interessanti
+                            <lb break="yes" facs="#p15r22" xml:id="p15_r22" n="22"/>
+                            <subst><del resp="#EA" rend="overstrike">le</del><add resp="#EA" rend="overwritten">i</add></subst> poch<subst><del>e</del><add resp="#EA" rend="overwritten">i</add></subst> <del rend="overstrike">notizie</del> appunti interessanti<reg resp="#DM">.</reg>
                         </s>    
                     </ab>
-                <pb facs="#pagina19" xml:id="p19"/>
+                <pb facs="#pagina19" xml:id="p19" n="19"/>
                     <ab>
                         <s>
-                            <lb break="yes" facs="#p19r1" xml:id="p19_r1"/>
+                            <lb break="yes" facs="#p19r1" xml:id="p19_r1" n="1"/>
                             chiesto se credo in Dio<pc>,</pc> il che è una domanda
-                            <lb break="yes" facs="#p19r2" xml:id="p19_r2"/>
+                            <lb break="yes" facs="#p19r2" xml:id="p19_r2" n="2"/>
                             da ignorante e poi ha cominciato una
-                            <lb break="yes" facs="#p19r3" xml:id="p19_r3"/>
+                            <lb break="yes" facs="#p19r3" xml:id="p19_r3" n="3"/>
                             specie di propaganda dicendo che se non in
-                            <lb break="yes" facs="#p19r4" xml:id="p19_r4"/>
+                            <lb break="yes" facs="#p19r4" xml:id="p19_r4" n="4"/>
                             teoria<pc>,</pc> almeno in pratica sono comunista<pc>.</pc>
                         </s>
                         <s>
-                            <lb break="yes" facs="#p19r5" xml:id="p19_r5"/>
+                            <lb break="yes" facs="#p19r5" xml:id="p19_r5" n="5"/>
                             Le ho risposto il solito dicorso che <choice><abbr>Com</abbr><expan resp="#DM">Com<ex>unismo</ex></expan></choice> e
-                            <lb break="yes" facs="#p19r6" xml:id="p19_r6"/>
+                            <lb break="yes" facs="#p19r6" xml:id="p19_r6" n="6"/>
                             <orgName ref="#PDA"><choice><abbr>P<pc><am>.</am></pc> d'A<pc><am>.</am></pc></abbr><expan resp="#DM">P<ex>artito</ex> d'A<ex>zione</ex></expan></choice></orgName> sono paralleli<pc>.</pc> 
                         </s>
                         <s>
                             Il primo tende alla
-                            <lb break="yes" facs="#p19r7" xml:id="p19_r7"/>
+                            <lb break="yes" facs="#p19r7" xml:id="p19_r7" n="7"/>
                             libertà attraverso la giustizia<pc>,</pc> il secondo
-                            <lb break="yes" facs="#p19r8" xml:id="p19_r8"/>
+                            <lb break="yes" facs="#p19r8" xml:id="p19_r8" n="8"/>
                             alla giustizia attraverso la libertà<pc>,</pc> ma l'azione
-                            <lb break="yes" facs="#p19r9" xml:id="p19_r9"/>
+                            <lb break="yes" facs="#p19r9" xml:id="p19_r9" n="9"/>
                             è uguale<pc>.</pc> 
                         </s>
                         <s>
                             Molte persone che rifuggono dal <choice><abbr>com<pc><am>.</am></pc></abbr><expan resp="#DM">com<ex>unismo</ex></expan></choice>
-                            <lb break="yes" facs="#p19r10" xml:id="p19_r10"/>
+                            <lb break="yes" facs="#p19r10" xml:id="p19_r10" n="10"/>
                             spaventate dal nome stesso <add facs="p19r10corr" xml:id="p19_r10corr" place="above">oltre che</add> <del rend="overstrike">e</del> dal<del rend="overstrike">l</del> programma
-                            <lb break="yes" facs="#p19r11" xml:id="p19_r11"/>
+                            <lb break="yes" facs="#p19r11" xml:id="p19_r11" n="11"/>
                             <del rend="overstrike">passerebb</del> entrerebbero nei partiti di destra
-                            <lb break="yes" facs="#p19r12" xml:id="p19_r12"/>
-                            se il <orgName ref="#PDA"><choice><abbr>P<pc><am>.</am></pc>d<pc><am>.</am></pc>A<pc><am>.</am></pc></abbr><expan resp="#DM">P<ex>artito</ex> d'A<ex>azione</ex></expan></choice></orgName> non le educasse a una <del rend="overstrike">maggiore</del>
-                            <lb break="yes" facs="#p19r13" xml:id="p19_r13"/>
+                            <lb break="yes" facs="#p19r12" xml:id="p19_r12" n="12"/>
+                            se il <orgName ref="#PDA"><choice><abbr>P<pc><am>.</am></pc>d<pc><am>.</am></pc>A<pc><am>.</am></pc></abbr><expan resp="#DM">P<ex>artito</ex> d'A<ex>zione</ex></expan></choice></orgName> non le educasse a una <del rend="overstrike">maggiore</del>
+                            <lb break="yes" facs="#p19r13" xml:id="p19_r13" n="13"/>
                             comprensione del problema sociale<pc>.</pc> 
                         </s>
                         <s>
                             <persName ref="#GI">Gina</persName> dice
-                            <lb break="yes" facs="#p19r14" xml:id="p19_r14"/>
+                            <lb break="yes" facs="#p19r14" xml:id="p19_r14" n="14"/>
                             di conoscere <persName ref="#IK">Kant</persName> e <persName ref="#BC">Croce</persName><pc>,</pc> ma mi pare che si illuda<pc>.</pc>
                         </s>
                         <s>
-                            <lb break="yes" facs="#p19r15" xml:id="p19_r15"/>
+                            <lb break="yes" facs="#p19r15" xml:id="p19_r15" n="15"/>
                             Tuttavia bisogna riconoscere che gli operai comunisti
-                            <lb break="yes" facs="#p19r16" xml:id="p19_r16"/>
+                            <lb break="yes" facs="#p19r16" xml:id="p19_r16" n="16"/>
                             sono molto più colti e più aperti al pensiero degli
-                            <lb break="yes" facs="#p19r17" xml:id="p19_r17"/>
+                            <lb break="yes" facs="#p19r17" xml:id="p19_r17" n="17"/>
                             altri<pc>:</pc> o <del rend="overstrike">che</del> <del rend="overstrike">la</del> i più intelligenti <del>passo</del> abbracciano
-                            <lb break="yes" facs="#p19r18" xml:id="p19_r18"/>
-                            il <choice><abbr>com</abbr><expan resp="#DM">com<ex>unismo</ex></expan></choice><pc>,</pc> o il <choice><abbr>com</abbr><expan resp="#DM">com<ex>unismo</ex></expan></choice> l<sic>e</sic><corr rend="overwritten" resp="#EA">i</corr> educa<del rend="overstrike"><gap atLeast="1" atMost="1" unit="chars" reason="illegible"/></del><pc>:</pc> comunque <del rend="overstrike">sta</del>
-                            <lb break="yes" facs="#p19r19" xml:id="p19_r19"/>
+                            <lb break="yes" facs="#p19r18" xml:id="p19_r18" n="18"/>
+                            il <choice><abbr>com</abbr><expan resp="#DM">com<ex>unismo</ex></expan></choice><pc>,</pc> o il <choice><abbr>com</abbr><expan resp="#DM">com<ex>unismo</ex></expan></choice> l<subst><del>e</del><add rend="overwritten" resp="#EA">i</add></subst> educa<del rend="overstrike"><gap atLeast="1" atMost="1" unit="chars" reason="illegible"/></del><orig><pc>:</pc></orig><reg><pc>;</pc></reg> comunque <del rend="overstrike">sto</del>
+                            <lb break="yes" facs="#p19r19" xml:id="p19_r19" n="19"/>
                             questa è una grande lode per il partito<pc>.</pc> 
                         </s>
                         <s>
                             Oggi
-                            <lb break="yes" facs="#p19r20" xml:id="p19_r20"/>
+                            <lb break="yes" facs="#p19r20" xml:id="p19_r20" n="20"/>
                             scrivo in un'osteria dove verrò forse tutti i
-                            <lb break="yes" facs="#p19r21" xml:id="p19_r21"/>
+                            <lb break="yes" facs="#p19r21" xml:id="p19_r21" n="21"/>
                             giorni a fare il mio lavoro<pc>.</pc> 
                         </s>
                         <s>
                             Spero di aver tempo
-                            <lb break="yes" facs="#p19r22" xml:id="p19_r22"/>
+                            <lb break="yes" facs="#p19r22" xml:id="p19_r22" n="22"/>
                             per studiare storia e filosofia per il concorso<pc>.</pc>
                         </s>
                     </ab>

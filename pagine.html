@@ -1,0 +1,427 @@
+<!DOCTYPE HTML><html xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>
+                    Diari di Emanuele Artom: codifica elettronica.
+                </title><script src="https://code.jquery.com/jquery-3.2.1.js" crossorigin="anonymous"></script><meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="pagine.css"><script src="pagine.js"></script></head>
+   <body>
+      <header>
+         <div id="head-container">
+            <div id="head-title">
+               <h1>
+                  Diari di Emanuele Artom: codifica elettronica.
+                  </h1>
+            </div>
+            <ul class="headnav">
+               <li class="nav-item"><a href="#info" class="nav-link">Informazioni</a></li>
+               <li class="nav-item"><a href="#manoscritto" class="nav-link">Descrizione del manoscritto</a></li>
+               <li class="nav-item"><a href="#p14" class="nav-link">Pagina 14</a></li>
+               <li class="nav-item"><a href="#p15" class="nav-link">Pagina 15</a></li>
+               <li class="nav-item"><a href="#p19" class="nav-link">Pagina 19</a></li>
+               <li class="nav-item"><a href="#org-cit" class="nav-link">Organizzazioni citate</a></li>
+               <li class="nav-item"><a href="#per-cit" class="nav-link">Persone citate</a></li>
+            </ul>
+         </div>
+      </header>
+      <div class="main">
+         <div id="info">
+            <div id="info-left">
+               <h2>Alcune informazioni sul progetto</h2>
+               <p>
+                  I diari sono stati scritti da Emanuele Artom tra il 1943 e il 1944: in queste pagine
+                  Artom racconta la sua esperienza partigiana dopo la firma dell'armistizio.
+                  
+                  La madre di Emanuele Artom, ovvero la signora Amalia Segre, ha conservato i diari
+                  e ha chiesto che alla sua morte venissero consegnati al Centro di Documentazione Ebraica.
+                  </p>
+               <p>
+                  <p>
+                     Edizione digitale realizzata nel mese di gennaio 2024
+                     </p>
+                  <p>Codifica in TEI P5 eseguita da
+                     Daniele
+                     Melaccio
+                     </p>
+                  <p>Con la supervisione di
+                     Angelo Mario
+                     Del Grosso
+                     </p>
+               </p>
+               <p>
+                  <p>Università di Pisa<br>Lungarno Pacinotti, 43<br>56126<br>Pisa<br>Testo con libero accesso - 2024</p>
+               </p>
+            </div>
+            <div id="info-right">
+               <h2>Scelte di codifica</h2>
+               <ul class="codifica-list">
+                  <li>Le correzioni degli errori grammaticali sono state eseguite secondo i principi e le
+                     regole della grammatica della lingua italiana.</li>
+                  <li>Gli accorgimenti di normalizzazione sul testo originale sono stati applicati nel modificare
+                     "Ispagna" in "Spagna", nell'aggiungere un punto a fine pagina 15, nel modificare un
+                     carattere ":" in ";" e infine nel sostituire i caratteri utilizzati per la sillabazione
+                     prima del ritorno a capo.</li>
+                  <li>I segni di punteggiatura sono stati mantenuti come nell'originale.</li>
+                  <li>La sillabazione delle parole per il ritorno a capo è stata mantenuta come presente
+                     nell'originale, ma è stato normalizzato l'utilizzo del carattere "-" al posto di "="
+                     per segnalare le parole spezzate; inoltre per ogni riga è indicato se inizia con una
+                     parola intera o con una parola spezzata dalla riga precedente.</li>
+                  <li>L'autore fa utilizzo di sigle e abbreviazioni che sono state sciolte e interpretate
+                     in fase di trascrizione, affiancando la versione originale alla versione estesa.</li>
+                  <li>Le pagine codificate sono raccolte all'interno di un tag "div" e le singole pagine
+                     corrispondono a una milestone che contiene un tag "ab", all'interno del quale il testo
+                     è diviso per righe con il tag "lb" e per periodi con il tag "s".</li>
+               </ul>
+            </div>
+         </div>
+         <div id="manoscritto">
+            <h2>Descrizione del manoscritto</h2>
+            <p>
+               <p>
+                  Documento cartaceo conservato a Milano presso la Fondazione Centro di Documentazione Ebraica Contemporanea CDEC Onlus.
+                  <br>Fondo Emanuele Artom - b. 1 , fasc. 9</p>
+               <p>
+                  Il manoscritto è stato realizzato su fogli di carta bianca o a righe orizzontali e
+                  verticali, talvolta con bordatura laterale, con superficie talvolta liscia e talvolta
+                  ruvida e di diverso spessore, liberamente ordinati.
+                  </p>
+               <p>
+                  
+                  Il testo è composto da 174 pagine, che comprendono nel dettaglio 1 pagina introduttiva
+                  che descrive la pagina successiva, seguita da 1 pagina contenente una lettera della
+                  signora Amalia Segre Artom (madre di Emanuele Artom), e infine 172 pagine di diario
+                  scritte da Emanuele Artom.
+                  
+                  </p>
+               <p>
+                  Sulle pagine non è riportata alcuna numerazione.
+                  </p>
+               <p>
+                  Le pagine del diario non sono rilegate tra loro, e i singoli fogli sembrano provenire
+                  da fonti diverse per qualità della carta, spessore e tipologia di superficie. L'autore
+                  ha utilizzato in maniera alternata una penna a inchiostro nero e una matita a grafite.
+                  Le pagine sono scritte da sinistra verso destra e dall'alto verso il basso.
+                  </p>
+               <p>
+                  Le pagine sono in buone condizioni di conservazione e sono facilmente leggibili; alcuni
+                  fogli presentano strappi e buchi lungo i bordi e alcune macchie di sporco.
+                  </p>
+               <p>
+                  Le pagine sono scritte in un'unica colonna di testo che tende a occupare tutto lo
+                  spazio a disposizione; le righe di testo scritte vanno all'incirca da un minimo di
+                  10 a un massimo di 30 per pagina.
+                  </p>
+               <p>La seconda pagina della raccolta è stata scritta a mano in corsivo da Amalia Segre
+                  Artom, mentre tutte le pagine di diario sono state scritte a mano in corsivo da Emanuele
+                  Artom.</p>
+               <p>
+                  La signora Amalia, madre di Emanuele, nella sua lettera inclusa all'inizio del manoscritto
+                  dichiara la sua volontà che le pagine del diario, alla sua morte, siano consegnate
+                  al Centro di Documentazione Ebraica; nella stessa lettera spiega il contenuto del
+                  plico in cui sono conservate le pagine di diario, a cui sono state aggiunte alcune
+                  scansioni e riproduzioni per garantire la sopravvivenza di alcune pagine che stavano
+                  riportando segni di sciupatura.
+                  </p>
+            </p>
+         </div>
+         <div id="pages">
+            <h2>Pagine codificate</h2>
+            <div class="pagina-body" id="p14">
+               <h2>Pagina 14</h2>
+               <h3>Clicca sui pulsanti per visualizzare</h3><button class="pers_org_btn" onclick="person_organization_function('pers_org_btn')">Persone e organizzazioni</button><button class="deleted_btn" onclick="deleted_function('deleted_btn')">Interventi dell'autore</button><button class="correction_btn" onclick="correction_function('correction_btn')">Correzioni</button><button class="regolarized_btn" onclick="regolarized_function('regolarized_btn')">Normalizzazioni</button><button class="expanded_btn" onclick="expanded_function('expanded_btn')">Abbreviazioni</button><div class="pagina-img">
+                  <div class="replica">
+                     <p>Muovi il cursore sull'immagine per evidenziare la riga corrispondente nella trascrizione.</p><img src="pag.14.jpeg" usemap="#pagina14" alt="Immagine pagina14"><map name="pagina14"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r1" shape="rectangle" coords="19.14,16.5,455.40000000000003,45.54"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r2" shape="rectangle" coords="23.1,43.56,459.36,77.22"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r3" shape="rectangle" coords="27.720000000000002,72.60000000000001,459.36,106.92"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r4" shape="rectangle" coords="27.060000000000002,99,450.12,135.3"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r5" shape="rectangle" coords="30.360000000000003,122.76,448.14000000000004,162.36"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r6" shape="rectangle" coords="27.060000000000002,149.16,458.04,180.84"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r7" shape="rectangle" coords="29.700000000000003,174.9,456.06,210.54000000000002"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r8" shape="rectangle" coords="28.380000000000003,200.64000000000001,438.24,231.66000000000003"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r9" shape="rectangle" coords="28.380000000000003,225.72,435.6,258.72"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r10" shape="rectangle" coords="28.380000000000003,251.46,443.52000000000004,289.08000000000004"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r11" shape="rectangle" coords="29.700000000000003,281.82,440.22,314.16"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r12" shape="rectangle" coords="28.380000000000003,311.52000000000004,434.94,344.52000000000004"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r13" shape="rectangle" coords="28.380000000000003,334.62,421.74,372.90000000000003"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r14" shape="rectangle" coords="30.360000000000003,366.3,458.70000000000005,401.28000000000003"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r15" shape="rectangle" coords="29.700000000000003,390.72,455.40000000000003,427.02000000000004"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r16" shape="rectangle" coords="28.380000000000003,421.74,456.72,461.34000000000003"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r17" shape="rectangle" coords="31.020000000000003,450.12,443.52000000000004,479.16"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r18" shape="rectangle" coords="34.980000000000004,479.82000000000005,442.86,513.48"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r19" shape="rectangle" coords="37.620000000000005,502.92,438.24,536.58"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r20" shape="rectangle" coords="38.940000000000005,529.32,430.32,566.94"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r21" shape="rectangle" coords="38.940000000000005,557.0400000000001,407.88,586.08"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r22" shape="rectangle" coords="37.620000000000005,584.76,431.64000000000004,617.1"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p14r23" shape="rectangle" coords="44.22,611.82,321.42,650.76"></map></div>
+                  <div class="pagina-text">
+                     <br><br><span id="p14_r1"></span>
+                     anticomunismo o a buona ragione. 
+                     
+                     Molti
+                     <br><br><span id="p14_r2"></span>
+                     ragazzi interpretano il comunismo come
+                     <br><br><span id="p14_r3"></span>
+                     un sistema di anarchia, disubbidienza
+                     <br><br><span id="p14_r4"></span>
+                     e preda. 
+                     
+                     <span class="deleted">Ieri</span>L'altro ieri uno dichiarava
+                     <br><br><span id="p14_r5"></span>
+                     che ora non ci sono più ufficiali e sol-
+                     <br><br><span id="p14_r6"></span>
+                     dati, mentre un altro si riprometteva di
+                     <br><br><span id="p14_r7"></span>
+                     far sua una villa di <span class="person">Agnelli</span>. 
+                     
+                     Un sottouffi<span class="arcaic">=</span><span class="regolarized">-</span>
+                     <br><br><span id="p14_r8"></span>
+                     ciale <span class="deleted">per</span> se ne è andato dicendo di
+                     <br><br><span id="p14_r9"></span>
+                     non voler <span class="deleted"></span>servire nell'esercito di
+                     <br><br><span id="p14_r10"></span>
+                     <span class="person">Franceschiello</span> e i ceti militari e mode-
+                     <br><br><span id="p14_r11"></span>
+                     rati protestano. 
+                     
+                     Io cerco di calmarli in
+                     <br><br><span id="p14_r12"></span>
+                     nome del <span class="organization"><span class="short">Fr. Naz.</span><span class="expanded">Fronte Nazionale</span></span> secondo le istruzioni
+                     <br><br><span id="p14_r13"></span>
+                     del <span class="organization"><span class="short">P.d.A.</span><span class="expanded">Partito d'Azione</span></span>. 
+                     
+                     <span class="person"><span class="short">Ant.</span><span class="expanded">Antonio Giolitti</span></span> dovrebbe intervenire
+                     <br><br><span id="p14_r14"></span>
+                     come <span class="short">Comm.</span><span class="expanded">Commissario</span> ma tace sempre.  
+                     
+                     Per fortuna
+                     <br><br><span id="p14_r15"></span>
+                     ora <span class="deleted"></span>è arrivato un ufficiale rosso, re<span class="arcaic">=</span><span class="regolarized">-</span>
+                     <br><br><span id="p14_r16"></span>
+                     duce dalla <span class="organization"><span class="error">legione</span><span class="correction">Brigata</span> Garibaldi</span> in <span class="arcaic">Ispagna</span><span class="regolarized">Spagna</span>,
+                     <br><br><span id="p14_r17"></span>
+                     che sa farsi obbedire e <span class="deleted">data</span> con <span class="added">i</span>l<span class="deleted">a</span>
+                     <br><br><span id="p14_r18"></span>
+                     su<span class="deleted">a</span><span class="added">o</span> passato comunista non può essere
+                     <br><br><span id="p14_r19"></span>
+                     tacciato di reazionario: ha lo <span class="deleted"></span>
+                     <br><br><span id="p14_r20"></span>
+                     pseudonimo di <span class="person">Carnera</span>. 
+                     
+                     Io vorrei
+                     <br><br><span id="p14_r21"></span>
+                     far qui esperienza per 15 o 20
+                     <br><br><span id="p14_r22"></span>
+                     giorni e poi passare ad un posto di
+                     <br><br><span id="p14_r23"></span>
+                     maggiore responsabilità.
+                     </div>
+               </div>
+            </div>
+            <div class="pagina-body" id="p15">
+               <h2>Pagina 15</h2>
+               <h3>Clicca sui pulsanti per visualizzare</h3><button class="pers_org_btn" onclick="person_organization_function('pers_org_btn')">Persone e organizzazioni</button><button class="deleted_btn" onclick="deleted_function('deleted_btn')">Interventi dell'autore</button><button class="correction_btn" onclick="correction_function('correction_btn')">Correzioni</button><button class="regolarized_btn" onclick="regolarized_function('regolarized_btn')">Normalizzazioni</button><button class="expanded_btn" onclick="expanded_function('expanded_btn')">Abbreviazioni</button><div class="pagina-img">
+                  <div class="replica">
+                     <p>Muovi il cursore sull'immagine per evidenziare la riga corrispondente nella trascrizione.</p><img src="pag.15.jpeg" usemap="#pagina15" alt="Immagine pagina15"><map name="pagina15"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r1" shape="rectangle" coords="29.040000000000003,23.1,421.08000000000004,60.06"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r2" shape="rectangle" coords="29.700000000000003,54.120000000000005,430.98,87.12"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r3" shape="rectangle" coords="29.040000000000003,79.86,409.20000000000005,108.9"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r4" shape="rectangle" coords="25.740000000000002,104.94000000000001,415.8,137.28"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r5" shape="rectangle" coords="24.42,131.34,401.28000000000003,159.72"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r6" shape="rectangle" coords="27.060000000000002,154.44,412.5,186.12"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r7" shape="rectangle" coords="27.720000000000002,178.20000000000002,423.06,220.44"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r8" shape="rectangle" coords="26.400000000000002,211.86,432.3,251.46"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r9" shape="rectangle" coords="31.68,241.56,432.96000000000004,281.16"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r10" shape="rectangle" coords="34.980000000000004,272.58000000000004,443.52000000000004,320.76"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r11" shape="rectangle" coords="33,302.94,419.1,336.6"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r12" shape="rectangle" coords="31.020000000000003,326.04,423.72,368.28000000000003"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r13" shape="rectangle" coords="31.020000000000003,357.06,426.36,400.62"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r14" shape="rectangle" coords="41.580000000000005,392.04,419.76000000000005,434.94"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r15" shape="rectangle" coords="34.32,422.40000000000003,393.36,454.74"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r16" shape="rectangle" coords="36.300000000000004,448.8,430.98,480.48"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r17" shape="rectangle" coords="46.2,473.22,413.16,502.26000000000005"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r18" shape="rectangle" coords="44.22,502.26000000000005,434.28000000000003,530.64"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r19" shape="rectangle" coords="43.56,527.34,429.66,555.0600000000001"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r20" shape="rectangle" coords="44.22,553.74,430.32,586.08"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r21" shape="rectangle" coords="41.580000000000005,580.14,422.40000000000003,617.1"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p15r22" shape="rectangle" coords="36.96,610.5,435.6,643.5"></map></div>
+                  <div class="pagina-text">
+                     <br><br><span id="p15_r1"></span>
+                     Quando penso agli agi di una volta
+                     <br><br><span id="p15_r2"></span>
+                     e alla loro completa fine, mi stupisco
+                     <br><br><span id="p15_r3"></span>
+                     di non soffrire quasi per la loro
+                     <br><br><span id="p15_r4"></span>
+                     perdita. 
+                     
+                     In questa camera non
+                     <br><br><span id="p15_r5"></span>
+                     c'è la tavola e scrivo sul letto in
+                     <br><br><span id="p15_r6"></span>
+                     una mezza oscurità. 
+                     
+                     Ci sono due
+                     <br><br><span id="p15_r7"></span>
+                     letti e in quello dove non dormo
+                     <br><br><span id="p15_r8"></span>
+                     io tutte le sere viene qualche <span class="deleted">pas</span>
+                     <br><br><span id="p15_r9"></span>
+                     viaggiatore che spesso russa e alla
+                     <br><br><span id="p15_r10"></span>
+                     mattina seguente <span class="deleted">parte co</span> si alza
+                     <br><br><span id="p15_r11"></span>
+                     con gran fracasso e prende il treno
+                     <br><br><span id="p15_r12"></span>
+                     delle sei. 
+                     
+                     Se non vado dai <span class="person"><span class="short">S.</span><span class="expanded">Segre</span></span> per
+                     <br><br><span id="p15_r13"></span>
+                     far lezione a <span class="person">Paola</span> devo girare
+                     <br><br><span id="p15_r14"></span>
+                     al freddo senza una sedia, si
+                     <br><br><span id="p15_r15"></span>
+                     può dire, per me. 
+                     
+                     Non ho la
+                     <br><br><span id="p15_r16"></span>
+                     fermezza di studiare. 
+                     
+                     Unico lavoro
+                     <br><br><span id="p15_r17"></span>
+                     intellettuale la compilazione di
+                     <br><br><span id="p15_r18"></span>
+                     questo diario che fra qualche anno,
+                     <br><br><span id="p15_r19"></span>
+                     se sarò vivo e tranquillo potrò
+                     <br><br><span id="p15_r20"></span>
+                     <span class="error">rielarare</span><span class="correction">rielaborare</span> e limare, purificandolo
+                     <br><br><span id="p15_r21"></span>
+                     dal molto inutile e conservando
+                     <br><br><span id="p15_r22"></span>
+                     <span class="deleted">le</span><span class="added">i</span> poch<span class="deleted">e</span><span class="added">i</span> <span class="deleted">notizie</span> appunti interessanti<span class="regolarized">.</span>
+                     </div>
+               </div>
+            </div>
+            <div class="pagina-body" id="p19">
+               <h2>Pagina 19</h2>
+               <h3>Clicca sui pulsanti per visualizzare</h3><button class="pers_org_btn" onclick="person_organization_function('pers_org_btn')">Persone e organizzazioni</button><button class="deleted_btn" onclick="deleted_function('deleted_btn')">Interventi dell'autore</button><button class="correction_btn" onclick="correction_function('correction_btn')">Correzioni</button><button class="regolarized_btn" onclick="regolarized_function('regolarized_btn')">Normalizzazioni</button><button class="expanded_btn" onclick="expanded_function('expanded_btn')">Abbreviazioni</button><div class="pagina-img">
+                  <div class="replica">
+                     <p>Muovi il cursore sull'immagine per evidenziare la riga corrispondente nella trascrizione.</p><img src="pag.19.jpeg" usemap="#pagina19" alt="Immagine pagina19"><map name="pagina19"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r1" shape="rectangle" coords="57.42,61.38,446.82,88.44"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r2" shape="rectangle" coords="62.7,88.44,442.86,111.54"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r3" shape="rectangle" coords="62.7,112.2,442.86,142.56"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r4" shape="rectangle" coords="62.040000000000006,135.96,423.06,165"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r5" shape="rectangle" coords="62.040000000000006,163.68,425.70000000000005,190.74"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r6" shape="rectangle" coords="60.720000000000006,188.76000000000002,446.16,215.82000000000002"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r7" shape="rectangle" coords="64.02,215.16,425.04,234.96"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r8" shape="rectangle" coords="55.440000000000005,236.28,447.48,264.66"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r9" shape="rectangle" coords="60.06,265.32,433.62,289.08000000000004"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r10corr" shape="rectangle" coords="256.74,284.46000000000004,315.48,299.64"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r10" shape="rectangle" coords="62.7,289.74,429,316.14000000000004"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r11" shape="rectangle" coords="62.7,316.8,423.72,337.92"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r12" shape="rectangle" coords="60.06,341.22,445.5,365.64000000000004"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r13" shape="rectangle" coords="62.7,367.62,442.86,392.04"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r14" shape="rectangle" coords="62.7,388.08000000000004,454.74,419.1"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r15" shape="rectangle" coords="54.78,413.82,454.08000000000004,440.88"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r16" shape="rectangle" coords="60.06,442.20000000000005,446.82,470.58000000000004"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r17" shape="rectangle" coords="60.720000000000006,465.96000000000004,461.34000000000003,495.66"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r18" shape="rectangle" coords="62.7,493.02000000000004,432.96000000000004,516.12"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r19" shape="rectangle" coords="60.06,519.4200000000001,440.88,545.1600000000001"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r20" shape="rectangle" coords="58.74,543.1800000000001,435.6,568.26"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r21" shape="rectangle" coords="57.42,566.94,442.20000000000005,597.96"><area onmouseout="evidenzia(this, false)" onmouseover="evidenzia(this, true)" id="p19r22" shape="rectangle" coords="56.1,595.32,441.54,618.4200000000001"></map></div>
+                  <div class="pagina-text">
+                     <br><br><span id="p19_r1"></span>
+                     chiesto se credo in Dio, il che è una domanda
+                     <br><br><span id="p19_r2"></span>
+                     da ignorante e poi ha cominciato una
+                     <br><br><span id="p19_r3"></span>
+                     specie di propaganda dicendo che se non in
+                     <br><br><span id="p19_r4"></span>
+                     teoria, almeno in pratica sono comunista.
+                     
+                     <br><br><span id="p19_r5"></span>
+                     Le ho risposto il solito dicorso che <span class="short">Com</span><span class="expanded">Comunismo</span> e
+                     <br><br><span id="p19_r6"></span>
+                     <span class="organization"><span class="short">P. d'A.</span><span class="expanded">Partito d'Azione</span></span> sono paralleli. 
+                     
+                     Il primo tende alla
+                     <br><br><span id="p19_r7"></span>
+                     libertà attraverso la giustizia, il secondo
+                     <br><br><span id="p19_r8"></span>
+                     alla giustizia attraverso la libertà, ma l'azione
+                     <br><br><span id="p19_r9"></span>
+                     è uguale. 
+                     
+                     Molte persone che rifuggono dal <span class="short">com.</span><span class="expanded">comunismo</span>
+                     <br><br><span id="p19_r10"></span>
+                     spaventate dal nome stesso <span class="added">oltre che</span> <span class="deleted">e</span> dal<span class="deleted">l</span> programma
+                     <br><br><span id="p19_r11"></span>
+                     <span class="deleted">passerebb</span> entrerebbero nei partiti di destra
+                     <br><br><span id="p19_r12"></span>
+                     se il <span class="organization"><span class="short">P.d.A.</span><span class="expanded">Partito d'Azione</span></span> non le educasse a una <span class="deleted">maggiore</span>
+                     <br><br><span id="p19_r13"></span>
+                     comprensione del problema sociale. 
+                     
+                     <span class="person">Gina</span> dice
+                     <br><br><span id="p19_r14"></span>
+                     di conoscere <span class="person">Kant</span> e <span class="person">Croce</span>, ma mi pare che si illuda.
+                     
+                     <br><br><span id="p19_r15"></span>
+                     Tuttavia bisogna riconoscere che gli operai comunisti
+                     <br><br><span id="p19_r16"></span>
+                     sono molto più colti e più aperti al pensiero degli
+                     <br><br><span id="p19_r17"></span>
+                     altri: o <span class="deleted">che</span> <span class="deleted">la</span> i più intelligenti <span class="deleted">passo</span> abbracciano
+                     <br><br><span id="p19_r18"></span>
+                     il <span class="short">com</span><span class="expanded">comunismo</span>, o il <span class="short">com</span><span class="expanded">comunismo</span> l<span class="deleted">e</span><span class="added">i</span> educa<span class="deleted"></span><span class="arcaic">:</span><span class="regolarized">;</span> comunque <span class="deleted">sto</span>
+                     <br><br><span id="p19_r19"></span>
+                     questa è una grande lode per il partito. 
+                     
+                     Oggi
+                     <br><br><span id="p19_r20"></span>
+                     scrivo in un'osteria dove verrò forse tutti i
+                     <br><br><span id="p19_r21"></span>
+                     giorni a fare il mio lavoro. 
+                     
+                     Spero di aver tempo
+                     <br><br><span id="p19_r22"></span>
+                     per studiare storia e filosofia per il concorso.
+                     </div>
+               </div>
+            </div>
+         </div>
+         <div id="cit">
+            <div id="org-cit">
+               <h2>Organizzazioni citate nel testo</h2>
+               <h3>Fronte Nazionale</h3>
+               <p>
+                  Non è chiaro a cosa si riferisca Artom con questo nome, citato più volte nel corso
+                  delle sue pagine di diario. Potrebbe intendere forse il Comitato di Liberazione Nazionale
+                  (CLN), che fu un'organizzazione politica e militare italiana costituita dai principali
+                  partiti e movimenti antifascisti del Paese, formatasi a Roma il 9 settembre 1943,
+                  allo scopo di opporsi all'occupazione tedesca e al nazifascismo in Italia; si sciolse
+                  nel 1947. L'organizzazione operò come organismo clandestino durante la Resistenza
+                  ed ebbe per delega poteri di governo nei giorni di insurrezione nazionale.
+                  </p>
+               <h3>Partito d'Azione</h3>
+               <p>
+                  Il Partito d'Azione (PdA) è stato un partito politico italiano di centro-sinistra
+                  fondato nel 1942;
+                  trasse il nome dall'omonimo partito fondato da Mazzini nel 1853 e scioltosi nel 1867,
+                  che aveva avuto tra i suoi obiettivi le elezioni a suffragio universale, la libertà
+                  di stampa e di pensiero, la responsabilizzazione dei governi nei confronti del popolo.
+                  Venne ricostituito il 4 giugno 1942 nell'abitazione romana di Federico Comandini.
+                  Ebbe vita breve e si sciolse nel 1947. I suoi membri furono chiamati "azionisti" e
+                  il suo organo ufficiale era L'Italia libera.
+                  </p>
+               <h3>Brigata Garibaldi</h3>
+               <p>
+                  Il Battaglione Garibaldi fu una formazione militare, costituita da volontari italiani
+                  nel 1936, per combattere le forze nazionaliste comandate dal generale Francisco Franco
+                  nella guerra civile spagnola, a supporto dell'Ejército Popular de la República della
+                  Repubblica Spagnola.
+                  Il 30 aprile 1937, fu elevato a rango di Brigata.
+                  </p>
+            </div>
+            <div id="per-cit">
+               <h2>Persone citate nel testo</h2>
+               <h3>
+                  Emanuele
+                  Artom
+                  </h3>
+               <p>È stato un partigiano e storico italiano di origine ebraica, combattente della Resistenza.</p>
+               <h3>
+                  Amalia
+                  Segre Artom
+                  </h3>
+               <p>È stata un'insegnante, madre di Emanuele Artom, ha raccolto e custodito i diari codificati
+                  in questo file.</p>
+               <h3>
+                  Agnelli
+                  </h3>
+               <p>Il cognome viene citato nel diario in riferimento a una villa della ricca famiglia
+                  fondatrice della fabbrica di automobili torinese FIAT.</p>
+               <h3>
+                  Francesco
+                  d'Assisi Maria Leopoldo
+                  </h3>
+               <p>Francesco II delle Due Sicilie, soprannominato Franceschiello, fu l'ultimo re del
+                  Regno delle Due Sicilie.</p>
+               <h3>
+                  Antonio
+                  Giolitti
+                  </h3>
+               <p>È stato un politico e partigiano italiano; fu uno dei fondatori delle Brigate Garibaldi,
+                  che diedero un contributo fondamentale alla Liberazione e alla lotta antinazista e
+                  antifascista in Italia e, in particolare, in Piemonte.</p>
+               <h3>
+                  Carnera
+                  </h3>
+               <p>Non è possibile rintracciare una identità certa di questo personaggio che Artom cita
+                  più volte nel corso dei suoi diari; stando alle parole dell'autore questo Carnera
+                  aveva combattuto nella Brigata Garibaldi in Spagna ed era di umili origini (prima,
+                  stando alle parole di Artom, faceva il calzolaio).</p>
+               <h3>
+                  Paola
+                  Segre
+                  </h3>
+               <h3>Gina</h3>
+               <h3>
+                  Immanuel
+                  Kant
+                  </h3>
+               <p>È stato un filosofo tedesco; considerato una delle figure più importanti dell'intera
+                  storia della filosofia, fu il più significativo esponente dell'Illuminismo tedesco,
+                  anticipatore degli elementi basilari della filosofia idealistica.</p>
+               <h3>
+                  Benedetto
+                  Croce
+                  </h3>
+               <p>È stato un filosofo, storico, politico, critico letterario e scrittore italiano, principale
+                  ideologo del liberalismo novecentesco italiano ed esponente del neoidealismo.</p>
+            </div>
+         </div>
+      </div>
+   </body>
+   <footer>
+      <div id="footer">
+         <p>Webpage realizzata da Daniele Melaccio (mat.620382) per l'esame di Codifica di Testi,
+            tenuto dal prof. Angelo Mario Del Grosso.</p>
+         <p>Corso di Laurea Triennale in Informatica Umanistica</p>
+      </div>
+   </footer>
+</html>
